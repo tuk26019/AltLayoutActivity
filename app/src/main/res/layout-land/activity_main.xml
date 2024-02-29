@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:paddingTop="8dp"
-            android:text="Email"
+            android:text="@string/emailLabels"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/profile_photo"
             app:layout_constraintHorizontal_bias="0.476"
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:paddingTop="8dp"
-            android:text="Extension"
+            android:text="@string/extensions"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/department"
             app:layout_constraintHorizontal_bias="0.521"
@@ -84,12 +84,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Department"
+            android:text="@string/department"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/name"
             app:layout_constraintHorizontal_bias="0.555"
             app:layout_constraintStart_toStartOf="@+id/name"
-            tools:layout_editor_absoluteY="80dp" />
+            tools:layout_editor_absoluteY="80dp"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/department"
@@ -109,7 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:paddingTop="8dp"
-            android:text="Supervisor"
+            android:text="@string/supervisors"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/email"
             app:layout_constraintHorizontal_bias="0.484"
@@ -133,12 +134,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Direct Reports"
+            android:text="@string/direct_reports_Labels"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/extension"
             app:layout_constraintHorizontal_bias="0.441"
             app:layout_constraintStart_toStartOf="@+id/extension"
-            tools:layout_editor_absoluteY="319dp" />
+            tools:layout_editor_absoluteY="319dp"
+            tools:ignore="MissingConstraints" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/directReportsRecyclerView"

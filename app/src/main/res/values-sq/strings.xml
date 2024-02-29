@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FancyScreen</string>
+    <string name="DepartmentLabel">Departamenti</string>
+    <string name="Department">Emri i Departamentit</string>
+    <string name="emailLabel">Email</string>
+    <string name="email">Adresa e emailit</string>
+    <string name="extensionLabel">Extension</string>
+    <string name="extension">zgjerim</string>
+    <string name="supervisorLabel">Mbikëqyrësi</string>
+    <string name="supervisor">Emri i mbikëqyrësit</string>
+    <string name="direct_reports_Label">Raport i drejtpërdrejtë</string>
+    <string name="direct_reports_RecyclerView">Raport i drejtpërdrejtë</string>
+</resources>

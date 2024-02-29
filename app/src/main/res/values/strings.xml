@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">FancyScreen</string>
+    <string name="DepartmentLabel">Department</string>
+    <string name="Department">Department Name</string>
+    <string name="emailLabel">Email</string>
+    <string name="email">Email Address</string>
+    <string name="extensionLabel">Extension</string>
+    <string name="extension">Extension</string>
+    <string name="supervisorLabel">Supervisor</string>
+    <string name="supervisor">Supervisor Name</string>
+    <string name="direct_reports_Label">Direct Reports</string>
+    <string name="direct_reports_RecyclerView">Direct Reports</string>
+    <string name="supervisors">Supervisor</string>
+    <string name="department">Department</string>
+    <string name="extensions">Extension</string>
+    <string name="emailLabels">Email</string>
+    <string name="direct_reports_Labels">Direct Reports</string>
+
+
 </resources>
